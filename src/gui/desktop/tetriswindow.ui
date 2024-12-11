@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TetrisWindow</class>
+ <widget class="QMainWindow" name="TetrisWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>700</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="FieldWidget" name="widget"/>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>FieldWidget</class>
+   <extends>QWidget</extends>
+   <header location="global">fieldwidget.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
